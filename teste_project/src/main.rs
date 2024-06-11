@@ -28,8 +28,7 @@ enum DiaDaSemana {
     Sabado
 }
 
-fn eh_fim_de_semana(dia_da_semana: DiaDaSemana) -> bool
-{
+fn eh_fim_de_semana(dia_da_semana: DiaDaSemana) -> bool{
     match dia_da_semana {
         DiaDaSemana::Domingo | DiaDaSemana::Sabado => true,
         _ => false
